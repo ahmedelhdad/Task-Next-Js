@@ -22,7 +22,7 @@ const BuyBlack = ({ products }) => {
     <div className="pt-16">
       <div className="container grid grid-cols-1 lg:grid-cols-7 gap-y-8 ">
         <div className="col-span-4 flex  items-center md:items-start justify-between">
-          <div className="h-full  w-28 ">
+          <div className="h-full  w-28  ">
             <Image src={Phone} alt="Phone" className="w-full" />
             <Image src={Phone} alt="Phone" />
             <Image src={Phone} alt="Phone" />
@@ -30,7 +30,7 @@ const BuyBlack = ({ products }) => {
             <Image src={Phone} alt="Phone" />
           </div>
 
-          <div className="h-96 w-[90%]">
+          <div className="h-96 w-[90%]  flex justify-center">
             <Image src={Phone} alt="Phone" className="" />
           </div>
         </div>
@@ -80,22 +80,22 @@ const BuyBlack = ({ products }) => {
               <Image src={Cib} alt='CIB'/>
             </div>
           </div>
-          <div className="flex item-center flex-col gap-3">
+          <div className="flex item-center flex-col gap-3 ">
               <h1 className="text-black font-bold">Memory</h1>
               <div className="flex item-center gap-3">
-              <div className="text-gary-400 border  rounded-lg px-4  h-20 w-28 flex flex-col justify-center items-center border-black font-bold">
+              <div className="text-gary-400 border  rounded-lg px-4  h-20 w-20  lg:w-28 flex flex-col justify-center items-center border-black font-bold">
                 <h1 className="font-bold text-lg">128G</h1>
                 <h1 className="text-gray-600 tracking-wide  ">$999.00</h1>
               </div>
-              <div className="text-gary-400 border rounded-lg px-4  h-20 w-28 flex flex-col justify-center items-center border-gray-400 text-gray-400 font-bold">
+              <div className="text-gary-400 border rounded-lg px-4  h-20  w-20 lg:w-28 flex flex-col justify-center items-center border-gray-400 text-gray-400 font-bold">
                 <h1 className="font-bold text-lg">256G</h1>
                 <h1 className=" tracking-wide  ">$999.00</h1>
               </div>
-              <div className="text-gary-400 border rounded-lg px-4  h-20 w-28 flex flex-col justify-center items-center border-gray-400 text-gray-400 font-bold">
+              <div className="text-gary-400 border rounded-lg px-4  h-20  w-20 lg:w-28  flex flex-col justify-center items-center border-gray-400 text-gray-400 font-bold">
                 <h1 className="font-bold text-lg">512G</h1>
                 <h1 className=" tracking-wide  ">$999.00</h1>
               </div>
-              <div className="text-gary-400 border rounded-lg px-4  h-20 w-28 flex flex-col justify-center items-center border-gray-400 text-gray-400 font-bold">
+              <div className="text-gary-400 border rounded-lg px-4  h-20 w-20 lg:w-28  flex flex-col justify-center items-center border-gray-400 text-gray-400 font-bold">
                 <h1 className="font-bold text-lg">1TB</h1>
                 <h1 className=" tracking-wide  ">$999.00</h1>
               </div>

@@ -5,7 +5,7 @@ import iconRight from "../image/arrow-right.svg";
 const Landing = () => {
   return (
     <div className='relative bg-[url("../image/Background.png")] flex items-center  bg-cover bg-no-repeat bg-center h-96'>
-      <div className="container  flex items-center justify-between w-full">
+      <div className="container  flex items-center justify-between w-full  invisible md:visible">
         <div className="bg-gray-200 hover:bg-gray-300 transition-all rounded-full flex justify-center items-center p-1  cursor-pointer">
           <Image src={iconLeft} alt="" />
         </div>
