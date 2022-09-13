@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components
+{
+    /* start Navbar  */
+    @media(max-width:991px)
+    {
+    .show 
+    {
+        @apply absolute -top-[100%] right-0 w-full h-screen bg-black   transition-all flex-col  gap-6 py-4  opacity-0 -z-10
+    }
+    .show.sll 
+    {
+        @apply opacity-100 top-full z-10
+    }
+    .show .links 
+    {
+        @apply flex-col divide-none 
+    }
+    .show ul 
+    {
+        @apply flex-col  
+    }
+    .show ul:last-child
+    {
+        @apply flex-col 
+    }
+    .show ul li a
+    {
+        @apply hover:mr-10 transition-all
+    }
+    }
+    /* End Navbar  */
+}
